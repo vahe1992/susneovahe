@@ -1,0 +1,10 @@
+name: run_app
+title:
+username: vahehovhannisyan
+account: vahehovhannisyan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 15503045
+bundleId: 10926057
+url: https://vahehovhannisyan.shinyapps.io/run_app/
+version: 1
