@@ -27,5 +27,3 @@ run_app <- function(
   )
 }
 
-devtools::load_all()
-run_app()
