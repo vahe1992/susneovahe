@@ -10,7 +10,7 @@ COPY NAMESPACE /app/NAMESPACE
 COPY R /app/R
 COPY inst /app/inst
 COPY man /app/man
-
+COPY business_logic /app/business_logic
 WORKDIR /app
 
 # Install your golem app and dependencies using remotes
