@@ -8,7 +8,6 @@ COPY NAMESPACE /app/NAMESPACE
 COPY R /app/R
 COPY inst /app/inst
 COPY man /app/man
-COPY golem-config.yml /app/golem-config.yml
 WORKDIR /app
 RUN R -e "install.packages('remotes'); remotes::install_local('.', dependencies = TRUE)"
 
